@@ -1,0 +1,37 @@
+{
+  "name": "keithbtn",
+  "version": "1.0.0",
+  "description": "button integration Api.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "buttons",
+    "keith-tech"
+  ],
+  "author": "keith",
+  "license": "MIT",
+  "homepage": "https://github.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "peerDependencies": {
+    "keithbaileys": "*",
+    "sharp": "*",
+    "fluent-ffmpeg": "*"
+  },
+  "peerDependenciesMeta": {
+    "sharp": {
+      "optional": true
+    },
+    "fluent-ffmpeg": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
